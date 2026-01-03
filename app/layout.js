@@ -1,7 +1,4 @@
-
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "판다마켓",
@@ -20,9 +17,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <Header />
         {children}
-        <Footer/>
       </body>
     </html>
   );

@@ -52,7 +52,9 @@ export default function Header() {
                         </div>
                     </div>
                     <div className={styles.rightSection}>
-                        <Button>로그인</Button>
+                        <Link href="/login">
+                            <Button>로그인</Button>
+                        </Link>
                     </div>
                 </div>
             </nav>
